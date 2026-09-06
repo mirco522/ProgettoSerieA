@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Luckiest+Guy&family=Momo+Trust+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+
+body {
+    background: whitesmoke;
+}
+.giocatore {
+    font-weight: bold;
+}
+.logo {
+    width: 45px;
+    height: 65px;
+}
+
+.navbar a:hover {
+    font-size: 27px;
+    opacity: 1;
+    font-style: italic;
+}
+.marcatori table{
+    border: 5px solid aqua;
+    font-family: "Momo Trust Display", sans-serif;
+    font-style: normal; 
+}
+.links {
+    opacity: 0.4;
+    font-size: 20px;
+}
+.marrone{
+    background-color:rgba(102, 57, 21, 0.507);
+}
+.nav-item {
+    font-size: 25px;
+    margin-right: 40px;
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.titolo {
+    margin-right: 40px;
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.sottotitolo {
+    font-size: 30px;
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.data {
+    border: 1px black solid;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+
+}
+
+.col {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.classifica img{
+    width: 40px;
+    height: 45px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.giornate img {
+    width: 40px;
+    height: 45px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.marcatori img{
+    width: 200px;
+    height: 180px;
+    
+}
+.casa {
+    float: left;
+}
+
+.trasferta {
+    float: right;
+}
+
+.giornate p {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: "Momo Trust Display", sans-serif;
+    font-style: normal;
+}
+
+.giornate .card {
+    border: 2px aqua solid;
+    padding-top: 10px;
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+
+.giornate .card p:hover {
+    opacity: 0.5;
+
+
+}
+
+.col {
+    border: 1px blue solid;
+    border-radius: 20px;
+}
+
+.giornate {
+    gap: 20px;
+}
+
+.classifica {
+    width: 80%;
+    height: 1950px;
+    margin: auto;
+    font-family: "Momo Trust Display", sans-serif;
+    font-style: normal;
+
+}
+
+.classifica table {
+    text-align: center;
+    font-size: 30px;
+    background-color: aliceblue;
+}
+
+.classifica tr,
+td,
+th {
+    border: 7px solid white;
+    padding: 20px;
+
+}
+
+.posizione,
+.punti,
+.w,
+.d,
+.x,
+.partite {
+    width: 5%;
+}
+
+.w {
+    color: green;
+}
+
+.d {
+    color: red;
+}
+
+.squadra {
+    width: 20%;
+    position: relative;
+}
+
+.prossima {
+    display: none;
+    margin-top: 10px;
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 500px;
+    font-size: 20px;
+
+}
+
+.squadra:hover .prossima {
+    display: block;
+
+}
+
+.squadra:hover {
+    padding-bottom: 30px;
+}
+
+.classifica td:hover,
+tr:hover {
+    font-size: 40px;
+}
+
+.parag {
+    text-align: center;
+}
+
+.champions {
+    color: blue;
+}
+
+.europa {
+    color: orange;
+}
+
+.conference {
+    color: green;   
+}
+
+.retrocessione {
+    color: red;
+}
+
+.club img {
+    width: 200px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nomesquadra {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+}
+
+
+.club a {
+    font-family: "Momo Trust Display", sans-serif;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.club {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.club {
+    background-color: seashell;
+    border: 5px solid aqua;
+}
+
+.club .card {
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 5px solid black;
+    margin-top: 30px;
+}
+
+.viola {
+    color: purple;
+}
+
+.bgviola {
+    background-color: darkorchid
+}
+
+@media screen and (max-width: 1024px) {
+
+    .giornate {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .titolo {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .sottotitolo {
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .giornate {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .titolo {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .sottotitolo {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .casa,
+    .trasferta {
+        width: 25px;
+    }
+}
